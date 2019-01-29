@@ -1,4 +1,7 @@
 def square_array(array)
   sqrs=[]
-  array.collect {|i| i**2}
+  sqrs.each do |i|
+    sqrs << i**2
+  end
+  sqrs
 end
